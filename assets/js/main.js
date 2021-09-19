@@ -22,13 +22,13 @@ const app = Vue.createApp({
         },
         stage2: {
           q1: 'ロック',
-          q2: 'うえきばちのうしろ',
-          q3: 'server',
+          q2: '植木鉢の後ろ',
+          q3: 'serverroom'
         },
         stage3: {
           q1: 'ううう',
-          q2: 'かかか',
-          q3: 'ききき',
+          // q2: 'かかか',
+          // q3: 'ききき',
         }
       },
 
