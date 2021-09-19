@@ -22,13 +22,33 @@ const app = Vue.createApp({
         },
         stage2: {
           q1: 'ロック',
-          q2: '植木鉢の後ろ',
-          q3: 'serverroom'
+          //q2: '植木鉢の後ろ',
+          //q3: 'serverroom'
         },
-        stage3: {
+       stage3: {
+          q1: 'ロック',
+          //q2: '植木鉢の後ろ',
+          //q3: 'serverroom'
+        },
+        stage4: {
+          q1: 'ロック',
+          //q2: '植木鉢の後ろ',
+          //q3: 'serverroom'
+        },
+        stage5: {
+          q1: 'ロック',
+          //q2: '植木鉢の後ろ',
+          //q3: 'serverroom'
+        },
+        stage6: {
+          q1: 'ロック',
+          //q2: '植木鉢の後ろ',
+          //q3: 'serverroom'
+        },
+        stage7: {
           q1: '4963',
-          q2: 'ラリー',
-          q3: '出前',
+          //q2: 'ラリー',
+          //q3: '出前',
         }
       },
 
@@ -41,13 +61,33 @@ const app = Vue.createApp({
         ],
         stage2: [
           false, // 2-1
-          false, // 2-2
-          false, // 2-3
+          //false, // 2-2
+          //false, // 2-3
         ],
         stage3: [
+          false, // 2-1
+          //false, // 2-2
+          //false, // 2-3
+        ],
+        stage4: [
+          false, // 2-1
+          //false, // 2-2
+          //false, // 2-3
+        ],
+        stage5: [
+          false, // 2-1
+          //false, // 2-2
+          //false, // 2-3
+        ],
+        stage6: [
+          false, // 2-1
+          //false, // 2-2
+          //false, // 2-3
+        ],
+        stage7: [
           false, // 3-1
-          false, // 3-2
-          false, // 3-3
+          //false, // 3-2
+          //false, // 3-3
         ]
       },
 
@@ -56,6 +96,10 @@ const app = Vue.createApp({
         stage1: false,
         stage2: false,
         stage3: false,
+        stage4: false,
+        stage5: false,
+        stage6: false,
+        stage7: false,
       },
 
       /* 次のステージを表示するかどうか
@@ -64,6 +108,10 @@ const app = Vue.createApp({
       next: {
         stage1: false,
         stage2: false,
+        stage3: false,
+        stage4: false,
+        stage5: false,
+        stage6: false,
       },
     }
   },
