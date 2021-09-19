@@ -26,27 +26,27 @@ const app = Vue.createApp({
           //q3: 'serverroom'
         },
        stage3: {
-          q1: 'ロック',
+          q1: '植木鉢の後ろ',
           //q2: '植木鉢の後ろ',
           //q3: 'serverroom'
         },
         stage4: {
-          q1: 'ロック',
+          q1: 'serverroom',
           //q2: '植木鉢の後ろ',
           //q3: 'serverroom'
         },
         stage5: {
-          q1: 'ロック',
+          q1: '4963',
           //q2: '植木鉢の後ろ',
           //q3: 'serverroom'
         },
         stage6: {
-          q1: 'ロック',
+          q1: 'ラリー',
           //q2: '植木鉢の後ろ',
           //q3: 'serverroom'
         },
         stage7: {
-          q1: '4963',
+          q1: '出前',
           //q2: 'ラリー',
           //q3: '出前',
         }
