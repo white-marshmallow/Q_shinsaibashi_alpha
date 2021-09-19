@@ -26,9 +26,9 @@ const app = Vue.createApp({
           q3: 'serverroom'
         },
         stage3: {
-          q1: 'ううう',
-          q2: 'かかか',
-          q3: 'ききき',
+          q1: '4963',
+          q2: 'ラリー',
+          q3: '出前',
         }
       },
 
