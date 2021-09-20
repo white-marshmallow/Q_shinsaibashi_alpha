@@ -34,8 +34,8 @@
         <section class="section">
           <div class="container">
             <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：1</span>本社を見つけよう！</h2>
-            <p class="text-center">本社に乗り込みたいが場所がわからない。そこで前の本社を売った不動産屋に事情を話すと、<br>
-            「場所を知っている。」といい地図と謎を渡した。謎を解いてキーワードに関する場所を答えに入力しよう。</p>
+            <p class="text-center">本社に乗り込みたいが場所がわからない。そこでレジスタンスの本部から、<br>
+            Goメールが届いた。これは本社の場所を教えてくれるみたいだ！謎を解いてキーワードに関する場所を答えに入力し相棒に伝えよう！。</p>
             <p class="text-center">困ったときは、ヒントがある。なるべく見ないようにゲームを進めていこう。</p>
   
             <div class="container">
@@ -88,9 +88,9 @@ Youtube貼り付けここまで -->
               <div class="clear-message__content">Googol本社の場所を特定し、数時間かけて、本社にたどり着いた。<br>
                 がしかし、当然ながら正面玄関は警備が厳しい為に、<br>
                 十数分程足止めを食らっていた。そこで、本社の裏手に回り<br>
-                扉がないか調べていると、VIP専用裏口からしか侵入できそうだった。<br>
+                扉がないか調べていると、関係者専用裏口から侵入できそうだった。<br>
                 正面は警備が手厚かったのに対して、裏口は警備が薄く、容易に入れそうだ。<br>
-                ステージの謎をとき、暗号を見つけ出そう！</div>
+                相棒がパスワードらしきもののメールを送ってきた。謎を解いて裏口を開けよう。</div>
               <button v-on:click="nextStage('stage1')" onclick="location.href='#sectionStage2'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
@@ -109,10 +109,10 @@ Youtube貼り付けここまで -->
         <section>
           <div class="section">
             <div class="container">
-              <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：2</span>黒板に書かれている謎を解け！</h2>
-              <p class="text-center">家庭科室に入ることができた！<br>
-                すぐに目に入ったのは黒板にある４つの謎。<br>
-                これらを解くことで、きっと次のステップに繋がるはずだ！</p>
+              <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：2</span>関係者裏口のパスワードを解こう！</h2>
+              <p class="text-center"><br>
+                相棒が送ってきたメールには過去に裏口から入るための謎が描かれた落とし物があったみたいだ。<br>
+                これを解くことで、裏口に入れるに違いない！</p>
             </div>
           </div>
           <div class="stage-column__container section bg-color--keycolor">
@@ -186,8 +186,9 @@ Youtube貼り付けここまで -->
           <div class="container">
             <div class="clear-message">
               <div class="clear-message__title">STAGE：2　クリア！</div>
-              <div class="clear-message__content">黒板の指示に従い、<br>
-                次のステージの謎を解こう！</div>
+              <div class="clear-message__content">相棒は本社に侵入成功したが本社の全体の構造がわからなかった。<br>
+                一階の地図があったためそれを見ると監視室があるという情報が。<br>
+                全体の見取り図があるであろう監視室に向かうことにした。</div>
                 <button v-on:click="nextStage('stage2')" onclick="location.href='#sectionStage3'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
@@ -205,10 +206,10 @@ Youtube貼り付けここまで -->
         <section>
           <div class="section">
             <div class="container">
-              <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：3</span>黒板に書かれている謎を解け！</h2>
-              <p class="text-center">家庭科室に入ることができた！<br>
-                すぐに目に入ったのは黒板にある４つの謎。<br>
-                これらを解くことで、きっと次のステップに繋がるはずだ！</p>
+              <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：3</span>監視室の鍵を見つけよう</h2>
+              <p class="text-center">監視室を見つけたものの、鍵で閉ざされているみたいだ。<br>
+                すると相棒からメールが、これは監視室の鍵の場所を示した走り書きのようだ。<br>
+                これ解くことで、監視室の扉が開くはずだ！</p>
             </div>
           </div>
           <div class="stage-column__container section bg-color--keycolor">
@@ -279,8 +280,9 @@ STAGE1　ここまで -->
           <div class="container">
             <div class="clear-message">
               <div class="clear-message__title">STAGE：3　クリア！</div>
-              <div class="clear-message__content">黒板の指示に従い、<br>
-                次のステージの謎を解こう！</div>
+              <div class="clear-message__content">監視室に入ると机の上にある全体見取り図を発見。<br>
+                しかし、相棒には計画の中枢がどこなのかわからないみたいだ。<br>
+                私はレジスタンス本部に助けを求め全体見取り図を送った。</div>
                 <button v-on:click="nextStage('stage3')" onclick="location.href='#sectionStage4'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
